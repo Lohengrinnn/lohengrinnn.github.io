@@ -21,3 +21,8 @@ Graph ---- Topological sort --- Kahn
 
 String --- Knuth-Morris-Pratt(KMP)
     \----- Horspool
+
+likelihood           - P(D|µ)
+hypothesis prior     - P(µ)  eg. Beta distribution
+Maximum a posteriori - P(X|µ) <- µ-MAX <-  P(µ|D) = ∝ P(D|µ) P(µ)
+Bayesian             - P(X|D) = ∑P(X|µi)P(µi|D)  Beyesian includes not only max posteriori but also all others
