@@ -5,8 +5,11 @@ Quicksort --- Lomuto
    /---- Preorder
 Tree --- Inorder --- Morris Traversal 
    \---- Postorder
+   \---- BFS
 
 
+         /--- A* search
+        /
        /-- MST --- Kruskal
       /      \---- Prim
      /
